@@ -5,8 +5,15 @@ function pageLoad(){
   $('.sec3').addClass('deactive')
   $('.sec4').addClass('deactive')
   $('.sec5').addClass('deactive')
+  $('#home').addClass('active-btn')
 
   $('#home').click(function(){
+    $('#home').addClass('active-btn')
+    $('#portfolio').removeClass('active-btn')
+    $('#work').removeClass('active-btn')
+    $('#blog').removeClass('active-btn')
+    $('#contact').removeClass('active-btn')
+
 
     $('.sec1').addClass('active')
     $('.sec1').removeClass('deactive')
@@ -25,6 +32,11 @@ function pageLoad(){
 })
 
   $('#portfolio').click(function(){
+    $('#home').removeClass('active-btn')
+    $('#portfolio').addClass('active-btn')
+    $('#work').removeClass('active-btn')
+    $('#blog').removeClass('active-btn')
+    $('#contact').removeClass('active-btn')
 
       $('.sec1').addClass('deactive')
       $('.sec1').removeClass('active')
@@ -43,6 +55,11 @@ function pageLoad(){
   })
 
   $('#work').click(function(){
+    $('#home').removeClass('active-btn')
+    $('#portfolio').removeClass('active-btn')
+    $('#work').addClass('active-btn')
+    $('#blog').removeClass('active-btn')
+    $('#contact').removeClass('active-btn')
 
     $('.sec1').addClass('deactive')
     $('.sec1').removeClass('active')
@@ -60,6 +77,11 @@ function pageLoad(){
     $('.sec5').removeClass('active')
 })
 $('#blog').click(function(){
+  $('#home').removeClass('active-btn')
+  $('#portfolio').removeClass('active-btn')
+  $('#work').removeClass('active-btn')
+  $('#blog').addClass('active-btn')
+  $('#contact').removeClass('active-btn')
 
   $('.sec1').addClass('deactive')
   $('.sec1').removeClass('active')
@@ -77,6 +99,11 @@ $('#blog').click(function(){
   $('.sec5').removeClass('active')
 })
 $('#contact').click(function(){
+  $('#home').removeClass('active-btn')
+  $('#portfolio').removeClass('active-btn')
+  $('#work').removeClass('active-btn')
+  $('#blog').removeClass('active-btn')
+  $('#contact').addClass('active-btn')
 
   $('.sec1').addClass('deactive')
   $('.sec1').removeClass('active')

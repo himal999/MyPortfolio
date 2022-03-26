@@ -57,106 +57,110 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: page .5s;
-          animation: page .5s;
+  -webkit-animation: page .4s;
+          animation: page .4s;
 }
 
 @-webkit-keyframes page {
   0% {
-    -webkit-clip-path: circle(0px at 100% -10%);
-            clip-path: circle(0px at 100% -10%);
+    -webkit-clip-path: circle(0px at 0% -10%);
+            clip-path: circle(0px at 0% -10%);
   }
   10% {
-    -webkit-clip-path: circle(100px at 100% -10%);
-            clip-path: circle(100px at 100% -10%);
+    -webkit-clip-path: circle(100px at 0% -10%);
+            clip-path: circle(100px at 0% -10%);
   }
   20% {
-    -webkit-clip-path: circle(200px at 100% -10%);
-            clip-path: circle(200px at 100% -10%);
+    -webkit-clip-path: circle(200px at 0% -10%);
+            clip-path: circle(200px at 0% -10%);
   }
   30% {
-    -webkit-clip-path: circle(300px at 100% -10%);
-            clip-path: circle(300px at 100% -10%);
+    -webkit-clip-path: circle(300px at 0% -10%);
+            clip-path: circle(300px at 0% -10%);
   }
   40% {
-    -webkit-clip-path: circle(400px at 100% -10%);
-            clip-path: circle(400px at 100% -10%);
+    -webkit-clip-path: circle(400px at 0% -10%);
+            clip-path: circle(400px at 0% -10%);
   }
   50% {
-    -webkit-clip-path: circle(500px at 100% -10%);
-            clip-path: circle(500px at 100% -10%);
+    -webkit-clip-path: circle(500px at 0% -10%);
+            clip-path: circle(500px at 0% -10%);
   }
   60% {
-    -webkit-clip-path: circle(600px at 100% -10%);
-            clip-path: circle(600px at 100% -10%);
+    -webkit-clip-path: circle(600px at 0% -10%);
+            clip-path: circle(600px at 0% -10%);
   }
   70% {
-    -webkit-clip-path: circle(700px at 100% -10%);
-            clip-path: circle(700px at 100% -10%);
+    -webkit-clip-path: circle(700px at 0% -10%);
+            clip-path: circle(700px at 0% -10%);
   }
   80% {
-    -webkit-clip-path: circle(800px at 100% -10%);
-            clip-path: circle(800px at 100% -10%);
+    -webkit-clip-path: circle(800px at 0% -10%);
+            clip-path: circle(800px at 0% -10%);
   }
   90% {
-    -webkit-clip-path: circle(900px at 100% -10%);
-            clip-path: circle(900px at 100% -10%);
+    -webkit-clip-path: circle(900px at 0% -10%);
+            clip-path: circle(900px at 0% -10%);
   }
   100% {
-    -webkit-clip-path: circle(1000px at 100% -10%);
-            clip-path: circle(1000px at 100% -10%);
+    -webkit-clip-path: circle(1000px at 0% -10%);
+            clip-path: circle(1000px at 0% -10%);
   }
 }
 
 @keyframes page {
   0% {
-    -webkit-clip-path: circle(0px at 100% -10%);
-            clip-path: circle(0px at 100% -10%);
+    -webkit-clip-path: circle(0px at 0% -10%);
+            clip-path: circle(0px at 0% -10%);
   }
   10% {
-    -webkit-clip-path: circle(100px at 100% -10%);
-            clip-path: circle(100px at 100% -10%);
+    -webkit-clip-path: circle(100px at 0% -10%);
+            clip-path: circle(100px at 0% -10%);
   }
   20% {
-    -webkit-clip-path: circle(200px at 100% -10%);
-            clip-path: circle(200px at 100% -10%);
+    -webkit-clip-path: circle(200px at 0% -10%);
+            clip-path: circle(200px at 0% -10%);
   }
   30% {
-    -webkit-clip-path: circle(300px at 100% -10%);
-            clip-path: circle(300px at 100% -10%);
+    -webkit-clip-path: circle(300px at 0% -10%);
+            clip-path: circle(300px at 0% -10%);
   }
   40% {
-    -webkit-clip-path: circle(400px at 100% -10%);
-            clip-path: circle(400px at 100% -10%);
+    -webkit-clip-path: circle(400px at 0% -10%);
+            clip-path: circle(400px at 0% -10%);
   }
   50% {
-    -webkit-clip-path: circle(500px at 100% -10%);
-            clip-path: circle(500px at 100% -10%);
+    -webkit-clip-path: circle(500px at 0% -10%);
+            clip-path: circle(500px at 0% -10%);
   }
   60% {
-    -webkit-clip-path: circle(600px at 100% -10%);
-            clip-path: circle(600px at 100% -10%);
+    -webkit-clip-path: circle(600px at 0% -10%);
+            clip-path: circle(600px at 0% -10%);
   }
   70% {
-    -webkit-clip-path: circle(700px at 100% -10%);
-            clip-path: circle(700px at 100% -10%);
+    -webkit-clip-path: circle(700px at 0% -10%);
+            clip-path: circle(700px at 0% -10%);
   }
   80% {
-    -webkit-clip-path: circle(800px at 100% -10%);
-            clip-path: circle(800px at 100% -10%);
+    -webkit-clip-path: circle(800px at 0% -10%);
+            clip-path: circle(800px at 0% -10%);
   }
   90% {
-    -webkit-clip-path: circle(900px at 100% -10%);
-            clip-path: circle(900px at 100% -10%);
+    -webkit-clip-path: circle(900px at 0% -10%);
+            clip-path: circle(900px at 0% -10%);
   }
   100% {
-    -webkit-clip-path: circle(1000px at 100% -10%);
-            clip-path: circle(1000px at 100% -10%);
+    -webkit-clip-path: circle(1000px at 0% -10%);
+            clip-path: circle(1000px at 0% -10%);
   }
 }
 
 .deactive {
   display: none;
+}
+
+.active-btn {
+  background-color: var(--color-secondr) !important;
 }
 
 .controlles {
