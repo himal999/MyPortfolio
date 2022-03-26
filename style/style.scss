@@ -16,28 +16,24 @@ body{
     background-color: var(--color-primary);
     font-size: 1.1rem;
     color: var(--color-white);
-    transition: all .4s ease-in-out;
+ 
 }
 header{
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100%;
     color: var(--color-white);
     overflow: hidden;
 }
 section{
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100%;
     position: absolute;
     left: 0;
     top: 0;
-    padding: 3rem  18rem;
+    
 }
 
-.section{
 
-    transition: all .4s ease-in-out;
-    background-color: var(--color-secondr);
-}
 
 .sec1{
   
@@ -59,6 +55,43 @@ section{
 
 .active{
     display: block;
+    animation: page .5s;
+    @keyframes page {
+        0%{
+            clip-path: circle(0px at 100% -10%) ;
+        }
+        10%{
+            clip-path: circle(100px at 100% -10%) ;
+        }
+        20%{
+            clip-path: circle(200px at 100% -10%) ;
+        }
+        30%{
+            clip-path: circle(300px at 100% -10%) ;
+        }
+        40%{
+            clip-path: circle(400px at 100% -10%) ;
+        }
+        50%{
+            clip-path: circle(500px at 100% -10%) ;
+        }
+        60%{
+            clip-path: circle(600px at 100% -10%) ;
+        }
+        70%{
+            clip-path: circle(700px at 100% -10%) ;
+        }
+        80%{
+            clip-path: circle(800px at 100% -10%) ;
+        }
+        90%{
+            clip-path: circle(900px at 100% -10%) ;
+        }
+        100%{
+            clip-path: circle(1000px at 100% -10%) ;
+        }
+    }
+     
 }
 .deactive{
     display: none;
