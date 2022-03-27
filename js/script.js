@@ -124,41 +124,26 @@ $('#contact').click(function(){
 
 }
 
-function autoText(){
-  const text = ["Full Stack Developer","Progrmmer","Web Developer","Mobile Develpoer","Freelancer"];
-  for(var i in text){
 
-    if(text[i]== "Full Stack Developer"){
-      
-      $('#auto-typing').children().remove() ;
-      $('#auto-typing').append(`<li>${text[i]}</li>`)
-      continue
-    }
-   else if(text[i]=="Progrmmer"){
- 
-    $('#auto-typing').children().remove() ;
-    $('#auto-typing').append(`<li>${text[i]}</li>`)
-    continue
-   }
-   else if(text[i]=="Web Developer"){
-    $('#auto-typing').children().remove() ;
-    $('#auto-typing').append(`<li>${text[i]}</li>`)
-    continue
-   }
-   else if(text[i]=="Mobile Develpoer"){
-    $('#auto-typing').children().remove() ;
-    $('#auto-typing').append(`<li>${text[i]}</li>`)
-     continue
-   }
-   else if(text[i]=="Freelancer"){
-    $('#auto-typing').children().remove() ;
-    $('#auto-typing').append(`<li>${text[i]}</li>`)
-
-   }
-  }
-}
 
 
 pageLoad();
 
-window.setInterval(autoText(),1000)
+function welcomeSta(){
+var time  = new Date();
+
+ 
+ if(time.getHours()>=0 && time.getHours()<12){
+   $('#welcome-sta').text(" Hi,Good Morning !!!")
+ }else if(time.getHours()>=12 && time.getHours()<16){
+  $('#welcome-sta').text(" Hi,Good Afternon !!!")
+ }
+ else if(time.getHours()>=16 && time.getHours()<21){
+  $('#welcome-sta').text(" Hi,Good Evening !!!")
+ }else{
+  $('#welcome-sta').text(" Hi,Good Night !!!")
+ }
+  
+}
+
+welcomeSta()

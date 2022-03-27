@@ -267,25 +267,38 @@ section {
 }
 
 .header-content .left-con .main-con h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
-  width: 50%;
+  width: 70%;
   font-size: 2.9rem;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: .2rem;
   text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
-.header-content .left-con .main-con h3 span {
-  color: var(--color-green);
+.header-content .left-con .main-con .span {
+  font-size: 3rem;
+}
+
+.header-content .left-con .main-con .span strong {
   font-size: 2.8rem;
+  color: var(--color-green);
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .header-content .left-con .main-con .main-content {
   position: relative;
   font-size: 2rem;
   font-weight: 500;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
