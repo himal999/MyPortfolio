@@ -174,7 +174,7 @@ section{
         .header-dec{
           
             position:absolute;
-            z-index: 1;
+    
             width: 100%;
             height: 100%;
             top: 0;
@@ -184,30 +184,37 @@ section{
                 
                 position: relative;
                 top: 15%;
-                width: 80%;
-                height: 80%;
+                width: 75%;
+                height: 75%;
                 object-fit: cover;
+               
+                
                 
             }
+           
             
         }
+       
         .hero-img{
             display: flex;
             position: relative;
-            width: 70%;
+            width: 90%;
             height: inherit;
             justify-content: center;
             align-items: center;
+         
+          
             img{
                 position: relative;
-                left: 98px;
-                width: 50%;
-                height: 30%;
+                top:100px;
+                left: 74px;
+                width: 100%;
+                height: 90%;
                 object-fit: cover;
                 z-index: 2;
-                transform: rotate(-20deg);
-
-           }
+                
+               
+            }
         }
         
     }

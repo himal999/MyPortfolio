@@ -259,7 +259,6 @@ section {
 
 .header-content .right-con .header-dec {
   position: absolute;
-  z-index: 1;
   width: 100%;
   height: 100%;
   top: 0;
@@ -270,8 +269,8 @@ section {
 .header-content .right-con .header-dec img {
   position: relative;
   top: 15%;
-  width: 80%;
-  height: 80%;
+  width: 75%;
+  height: 75%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -281,7 +280,7 @@ section {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  width: 70%;
+  width: 90%;
   height: inherit;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -293,13 +292,12 @@ section {
 
 .header-content .right-con .hero-img img {
   position: relative;
-  left: 98px;
-  width: 50%;
-  height: 30%;
+  top: 100px;
+  left: 74px;
+  width: 100%;
+  height: 90%;
   -o-object-fit: cover;
      object-fit: cover;
   z-index: 2;
-  -webkit-transform: rotate(-20deg);
-          transform: rotate(-20deg);
 }
 /*# sourceMappingURL=style.css.map */
