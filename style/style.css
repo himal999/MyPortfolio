@@ -365,6 +365,12 @@ section {
   width: 210px;
   height: 50px;
   margin-right: 2rem;
+  overflow: hidden;
+}
+
+.header-content .left-con .main-con .main-btn .download-btn span {
+  z-index: 2;
+  font-weight: 500;
 }
 
 .header-content .left-con .main-con .main-btn .download-btn div {
@@ -383,13 +389,43 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 12px;
+  margin-left: 10px;
+  z-index: 2;
 }
 
 .header-content .left-con .main-con .main-btn .download-btn div i {
   font-size: 2rem;
   color: var(--color-white);
   background-color: var(--color-green);
+}
+
+.header-content .left-con .main-con .main-btn .download-btn:after {
+  content: ' ';
+  width: 1px;
+  height: 55px;
+  position: absolute;
+  border-radius: 25px;
+  top: 0;
+  right: 50px;
+  overflow: hidden;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  z-index: -1;
+}
+
+.header-content .left-con .main-con .main-btn .download-btn:hover {
+  overflow: hidden;
+}
+
+.header-content .left-con .main-con .main-btn .download-btn:hover:after {
+  background-color: var(--color-green);
+  width: 102%;
+  height: 100%;
+  z-index: 1;
+  -webkit-transform: translateX(25%);
+          transform: translateX(25%);
 }
 
 .header-content .left-con .main-con .main-btn .hire-btn {
