@@ -121,6 +121,44 @@ $('#contact').click(function(){
   $('.sec5').removeClass('deactive')
 })
 
+
 }
 
+function autoText(){
+  const text = ["Full Stack Developer","Progrmmer","Web Developer","Mobile Develpoer","Freelancer"];
+  for(var i in text){
+
+    if(text[i]== "Full Stack Developer"){
+      
+      $('#auto-typing').children().remove() ;
+      $('#auto-typing').append(`<li>${text[i]}</li>`)
+      continue
+    }
+   else if(text[i]=="Progrmmer"){
+ 
+    $('#auto-typing').children().remove() ;
+    $('#auto-typing').append(`<li>${text[i]}</li>`)
+    continue
+   }
+   else if(text[i]=="Web Developer"){
+    $('#auto-typing').children().remove() ;
+    $('#auto-typing').append(`<li>${text[i]}</li>`)
+    continue
+   }
+   else if(text[i]=="Mobile Develpoer"){
+    $('#auto-typing').children().remove() ;
+    $('#auto-typing').append(`<li>${text[i]}</li>`)
+     continue
+   }
+   else if(text[i]=="Freelancer"){
+    $('#auto-typing').children().remove() ;
+    $('#auto-typing').append(`<li>${text[i]}</li>`)
+
+   }
+  }
+}
+
+
 pageLoad();
+
+window.setInterval(autoText(),1000)
