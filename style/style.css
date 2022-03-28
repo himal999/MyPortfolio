@@ -813,5 +813,9 @@ section {
   #right-shape-left {
     left: -5%;
   }
+  .control {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
