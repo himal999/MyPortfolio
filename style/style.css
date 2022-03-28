@@ -18,6 +18,8 @@
 .light-mode {
   --color-primary:#FFFFFF;
   --color-white:#2f3542;
+  --color-green:#ff4757;
+  --color-grey-2:#aaa69d;
 }
 
 body {

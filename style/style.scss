@@ -16,6 +16,8 @@
 .light-mode{
     --color-primary:#FFFFFF;
     --color-white:#2f3542;
+    --color-green:#ff4757;
+    --color-grey-2:#aaa69d;
     
 }
 
@@ -138,6 +140,7 @@ section{
         display: flex;
         border-radius: 50%;
         background-color: var(--color-grey-2);
+
         cursor: pointer;
         i{
             color: var(--color-white);
@@ -302,6 +305,7 @@ section{
                     height: 50px;
                     margin-right: 2rem;
                     overflow: hidden;
+                  
                     span{
                        z-index: 2;
                        font-weight: 500;
@@ -318,6 +322,7 @@ section{
                         display: flex;
                         margin-left: 10px;
                         z-index: 2;
+                       
                         
                         i{
                             font-size: 2rem;
