@@ -1,7 +1,9 @@
 
 @media screen and (max-width:600px){
 
-  
+  body{
+      height: 130vh;
+  }
     .header-shape-container {
         width: 250px;
         height: 250px;
@@ -15,6 +17,7 @@
     
     .header-content{
         grid-template-columns: 1fr ;
+        height: 120vh;
         .left-con{
            overflow: unset;
         }
@@ -27,9 +30,7 @@
             width: 90%;
             font-size: 2.3rem;
         }
-        p{
-          
-        }
+       
         
     }
 
@@ -39,5 +40,15 @@
     .control{
         margin-left: .8rem !important;
         margin-right: .8rem !important;
+    }
+
+    .header-dec{
+        top: 50px !important;
+    }
+    .hero-img{
+        img{
+            top: -15px !important;
+            left: 93px !important;
+        }
     }
 }
