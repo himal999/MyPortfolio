@@ -121,6 +121,9 @@ $('#contact').click(function(){
   $('.sec5').removeClass('deactive')
 })
 
+$('.theme-btn').click(function(){
+   $('body').toggleClass('light-mode')
+})
 
 }
 
