@@ -197,6 +197,7 @@ section {
       -ms-flex-align: center;
           align-items: center;
   padding: 1rem 10rem;
+  z-index: 5;
 }
 
 .controlles .control {
