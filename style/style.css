@@ -522,6 +522,13 @@ section {
   -o-object-fit: cover;
      object-fit: cover;
   z-index: 2;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.header-content .right-con .hero-img img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
 }
 
 .header-shape-container {
@@ -617,8 +624,6 @@ section {
   height: 50px;
   border: 2px solid var(--color-secondr);
   background-color: var(--color-primary);
-  right: 10%;
-  bottom: -40%;
   -webkit-animation: rotate 2s infinite;
           animation: rotate 2s infinite;
 }
@@ -663,5 +668,79 @@ section {
     -webkit-box-shadow: 0 0 8px var(--color-secondr);
             box-shadow: 0 0 8px var(--color-secondr);
   }
+}
+
+#right-shape-1 {
+  right: 10%;
+  bottom: -40%;
+}
+
+#right-shape-2 {
+  right: 15%;
+  bottom: -48%;
+}
+
+#right-shape-3 {
+  border: 2px solid var(--color-green) !important;
+  right: 35%;
+  bottom: 40%;
+  border-radius: 50%;
+  -webkit-animation: rotate-3 1.5s infinite;
+          animation: rotate-3 1.5s infinite;
+}
+
+@-webkit-keyframes rotate-3 {
+  0% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    -webkit-box-shadow: 0 0 8px var(--color-green);
+            box-shadow: 0 0 8px var(--color-green);
+  }
+  25% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  75% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+}
+
+@keyframes rotate-3 {
+  0% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    -webkit-box-shadow: 0 0 8px var(--color-green);
+            box-shadow: 0 0 8px var(--color-green);
+  }
+  25% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  75% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+}
+
+#right-shape-4 {
+  right: 100%;
+  bottom: -43%;
+  border: 2px solid var(--color-white);
+  border-radius: 23px;
+}
+
+#right-shape-left {
+  top: 75%;
+  left: -1.5%;
+  border-color: var(--color-grey-1);
 }
 /*# sourceMappingURL=style.css.map */
