@@ -803,6 +803,7 @@ section {
     overflow: unset;
   }
   .main-con {
+    margin-top: 7rem !important;
     margin-left: 2rem !important;
   }
   .main-con #welcome-sta {
