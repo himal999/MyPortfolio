@@ -523,8 +523,8 @@ section {
 
 .header-content .right-con .header-dec {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   top: 100px;
   right: 0;
   z-index: 1;
@@ -532,9 +532,9 @@ section {
 
 .header-content .right-con .header-dec img {
   position: relative;
-  top: 15%;
-  width: 75%;
-  height: 100%;
+  top: 6%;
+  width: 79%;
+  height: 80%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -556,8 +556,8 @@ section {
 
 .header-content .right-con .hero-img img {
   position: relative;
-  top: 100px;
-  left: 74px;
+  top: 80px;
+  left: 140px;
   width: 100%;
   height: 90%;
   -o-object-fit: cover;
@@ -713,18 +713,18 @@ section {
 
 #right-shape-1 {
   right: 10%;
-  bottom: -40%;
+  bottom: 10%;
 }
 
 #right-shape-2 {
   right: 15%;
-  bottom: -48%;
+  bottom: 14%;
 }
 
 #right-shape-3 {
   border: 2px solid var(--color-green) !important;
-  right: 35%;
-  bottom: 40%;
+  right: 27%;
+  bottom: 60%;
   border-radius: 50%;
   -webkit-animation: rotate-3 1.5s infinite;
           animation: rotate-3 1.5s infinite;
@@ -773,8 +773,8 @@ section {
 }
 
 #right-shape-4 {
-  right: 100%;
-  bottom: -43%;
+  right: 130%;
+  bottom: 12%;
   border: 2px solid var(--color-white);
   border-radius: 23px;
 }
