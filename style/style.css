@@ -551,7 +551,7 @@ section {
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  border: 15px solid var(--color-green);
+  border: 10px solid var(--color-green);
   -webkit-animation: rot 5s infinite;
           animation: rot 5s infinite;
 }
